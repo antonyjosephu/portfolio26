@@ -85,7 +85,7 @@ personalInfo: [
   contact: {
     phone: "+91 9746004463",
     email: "antonyukken94@gmail.com",
-    formEndpoint: "https://formspree.io/f/your-form-id", // sign up free at formspree.io
+    formEndpoint: "https://formspree.io/f/xdekwrgq", // sign up free at formspree.io
 socials: {
   facebook: "https://www.facebook.com/antonyju",
   youtube: "https://www.youtube.com/channel/UCURqSZ3O9dagM1wOwEY8jkg",
