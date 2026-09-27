@@ -87,9 +87,9 @@ personalInfo: [
     email: "antonyukken94@gmail.com",
     formEndpoint: "https://formspree.io/f/your-form-id", // sign up free at formspree.io
     socials: {
-      facebook: "https://www.facebook.com/antonyju#",
-      youtube: "https://www.youtube.com/channel/UCURqSZ3O9dagM1wOwEY8jkg#",
-      instagram: "https://www.instagram.com/_antonyjoseph_#",
+      facebook: "https://www.facebook.com/antonyju",
+      youtube: "https://www.youtube.com/channel/UCURqSZ3O9dagM1wOwEY8jkg",
+      instagram: "https://www.instagram.com/_antonyjoseph_",
       linkedin: "https://www.linkedin.com/in/antony-joseph-830b731a3/",
     },
   },
