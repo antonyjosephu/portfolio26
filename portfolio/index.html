@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio</title>
+<meta name="description" content="Front End Developer portfolio — projects, skills, and contact.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ INTRO ANIMATION ============ -->
+<div id="preloader">
+  <div class="intro-word" id="introWord">hi, i'm <span class="accent" data-name>Antony Joseph</span>.</div>
+</div>
+<div class="intro-panels" id="introPanels"><span></span><span></span><span></span><span></span><span></span></div>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="siteNav">
+  <a href="#home" class="brand"><span data-name>Name</span><span class="dot">.</span></a>
+  <nav class="links" id="navLinks">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact" class="nav-cta">Contact</a>
+  </nav>
+  <div class="burger" id="burger"><span></span><span></span><span></span></div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="home">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <h1 class="blur-reveal" id="heroHeadline">Hi, I'm <span data-name>Antony</span>.</h1>
+      <p class="role reveal" style="--d:.25s">I'm an <strong data-role>Wordpress Developer</strong> — <span data-tagline>tagline here.</span></p>
+      <div class="hero-btns reveal" style="--d:.4s">
+        <a href="#projects" class="btn primary">View my work</a>
+        <a href="#" class="btn ghost" data-resume target="_blank" rel="noopener">Download CV</a>
+      </div>
+    </div>
+    <div class="hero-photo reveal" style="--d:.3s">
+      <div class="blob"></div>
+      <div class="frame"><img data-photo src="" alt="Portrait photo"></div>
+      <div class="stat-card sc1" id="statCard1"></div>
+      <div class="stat-card sc2" id="statCard2"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BIG STATEMENT ============ -->
+<section class="statement">
+  <div class="container">
+    <h2 class="blur-reveal">Clean code. Bold design. Interfaces that make clients say yes.</h2>
+    <p class="sub reveal">Modern, responsive websites designed around your brand, audience, and business goals.</p>
+  </div>
+</section>
+
+<!-- ============ ABOUT + PERSONAL INFO ============ -->
+<section id="about">
+  <div class="container about-grid">
+    <div class="reveal">
+      <p class="eyebrow">About</p>
+      <h2>A bit about me</h2>
+      <p data-about>About text loads here.</p>
+    </div>
+    <div class="reveal">
+      <p class="eyebrow">Personal info</p>
+      <h2>Quick facts</h2>
+      <div class="info-list" id="infoList"><!-- rendered by main.js --></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section>
+  <div class="container">
+    <div class="sec-head reveal">
+      <p class="eyebrow">Stack</p>
+      <h2>Tools I work with</h2>
+    </div>
+    <div class="skills-wrap reveal" id="skillsWrap"><!-- rendered by main.js --></div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section id="projects">
+  <div class="container">
+    <div class="sec-head reveal">
+      <p class="eyebrow">Projects</p>
+      <h2>Selected work</h2>
+    </div>
+    <div class="tabs reveal">
+      <button class="tab-btn active" data-cat="wordpress">WordPress</button>
+      <button class="tab-btn" data-cat="javascript">JavaScript</button>
+      <button class="tab-btn" data-cat="react">React</button>
+    </div>
+    <div class="proj-grid" id="projGrid"><!-- rendered by main.js --></div>
+  </div>
+</section>
+<!-- ============ AI & CREATOR WORK ============ -->
+<section id="ai-work" class="creator-section">
+  <div class="container">
+
+    <div class="sec-head reveal">
+      <p class="eyebrow">AI & Creator Work</p>
+      <h2>AI Video & YouTube Channels</h2>
+    </div>
+
+    <div class="creator-grid">
+
+      <!-- CHANNEL 1 -->
+      <article class="creator-card">
+        <div class="creator-thumb">
+          <img
+            src="assets/images/youtube-channel-1.png"
+            alt="AI Avatar YouTube Channel"
+          >
+        </div>
+
+        <div class="creator-body">
+          <span class="creator-stat">94K+ Subscribers</span>
+
+          <h3>Christian Tube Malayalam</h3>
+
+          <p>
+            AI-powered Christian avatar videos, visual storytelling
+            and short-form content.
+          </p>
+
+          <a
+            href="https://www.youtube.com/channel/UCK-FiBqXkszw04WV3NAfXLA"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="creator-link"
+          >
+            Visit Channel →
+          </a>
+        </div>
+      </article>
+
+
+      <!-- CHANNEL 2 -->
+      <article class="creator-card">
+        <div class="creator-thumb">
+          <img
+            src="assets/images/youtube-channel-2.png"
+            alt="AI Christian Content Channel"
+          >
+        </div>
+
+        <div class="creator-body">
+          <span class="creator-stat">65K+ Subscribers</span>
+
+          <h3>Christian Tube Tamil</h3>
+
+          <p>
+            AI-powered Christian avatar videos, visual storytelling
+            and short-form content.
+          </p>
+
+          <a
+            href="https://www.youtube.com/channel/UCbqaylWGPdsHw8K6S6x50Mg"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="creator-link"
+          >
+            Visit Channel →
+          </a>
+        </div>
+      </article>
+
+
+      <!-- PRODUCT ADS -->
+      <article class="creator-card">
+        <div class="creator-thumb">
+          <img
+            src="assets/images/ai-product-ads.png"
+            alt="AI Product Ads and Reviews"
+          >
+        </div>
+
+        <div class="creator-body">
+          <span class="creator-stat">AI Video Portfolio</span>
+
+          <h3>AI Product Ads & Reviews</h3>
+
+          <p>
+            AI-assisted product advertisements, demonstrations
+            and promotional short-form videos.
+          </p>
+
+          <a
+            href="https://www.youtube.com/channel/UCMdjMxDmE1gKtckQQBIvjVQ"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="creator-link"
+          >
+            Visit Channel →
+          </a>
+        </div>
+      </article>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section id="contact">
+  <div class="contact-band reveal">
+    <div class="container contact-grid">
+      <div class="contact-info">
+        <p class="eyebrow">Contact</p>
+        <h2 style="margin-bottom:30px;">Let's work together</h2>
+        <div class="item"><div class="lbl">Phone</div><div class="val" id="contactPhone"></div></div>
+        <div class="item"><div class="lbl">Email</div><div class="val" id="contactEmail"></div></div>
+      </div>
+      <form class="contact-form" id="contactForm" method="POST">
+        <div class="field"><label for="cname">Your name</label><input id="cname" name="name" type="text" placeholder="Jane Cooper" required></div>
+        <div class="field"><label for="cemail">Email</label><input id="cemail" name="email" type="email" placeholder="jane@company.com" required></div>
+        <div class="field"><label for="cmsg">Message</label><textarea id="cmsg" name="message" rows="4" placeholder="Tell me about your project..." required></textarea></div>
+        <button type="submit" class="btn submit-btn">Send message</button>
+        <p class="form-success" id="formSuccess">Message sent — I'll get back to you soon.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="container foot-row">
+    <p>&copy; <span data-year>2026</span> <span data-name>Name</span>. Built with HTML, CSS &amp; JS.</p>
+    <div class="foot-social" id="footSocial"><!-- rendered by main.js --></div>
+  </div>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
