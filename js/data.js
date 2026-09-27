@@ -90,7 +90,7 @@ personalInfo: [
       facebook: "https://www.facebook.com/antonyju#",
       youtube: "https://www.youtube.com/channel/UCURqSZ3O9dagM1wOwEY8jkg#",
       instagram: "https://www.instagram.com/_antonyjoseph_#",
-      linkedin: "#https://www.linkedin.com/in/antony-joseph-830b731a3/",
+      linkedin: "https://www.linkedin.com/in/antony-joseph-830b731a3/",
     },
   },
 };
