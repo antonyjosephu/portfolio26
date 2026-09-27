@@ -219,7 +219,10 @@
         <div class="item"><div class="lbl">Phone</div><div class="val" id="contactPhone"></div></div>
         <div class="item"><div class="lbl">Email</div><div class="val" id="contactEmail"></div></div>
       </div>
-      <form class="contact-form" id="contactForm" method="POST">
+      <form   class="contact-form"
+  id="contactForm"
+  action="https://formspree.io/f/YOUR-REAL-ID"
+  method="POST">
         <div class="field"><label for="cname">Your name</label><input id="cname" name="name" type="text" placeholder="Jane Cooper" required></div>
         <div class="field"><label for="cemail">Email</label><input id="cemail" name="email" type="email" placeholder="jane@company.com" required></div>
         <div class="field"><label for="cmsg">Message</label><textarea id="cmsg" name="message" rows="4" placeholder="Tell me about your project..." required></textarea></div>
