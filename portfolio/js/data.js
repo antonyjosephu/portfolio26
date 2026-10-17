@@ -76,8 +76,8 @@ personalInfo: [
       { name: "Image Slider", desc: "Auto-rotating carousel component.", image: "assets/images/Image Slider.png", url: "#" },
     ],
     react: [
-      { name: "Netflix Clone", desc: "Responsive streaming platform UI, hosted on Firebase.", image: "assets/images/NetflixClone.png", url: "#" },
-      { name: "E-commerce Fashion Store", desc: "Modern shopping front-end, hosted on Firebase.", image: "assets/images/Shopper.png", url: "#" },
+      { name: "Netflix Clone", desc: "Responsive streaming platform UI, hosted on Firebase.", image: "assets/images/NetflixClone.png", url: "https://netflix-clone-85c55.web.app/" },
+      { name: "E-commerce Fashion Store", desc: "Modern shopping front-end, hosted on Firebase.", image: "assets/images/Shopper.png", url: "https://ecommerce-shopper-b6345.web.app/" },
     ],
     
   },
