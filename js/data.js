@@ -44,7 +44,7 @@ personalInfo: [
     link: "mailto:antonyukken94@gmail.com"
   },
 
-  { label: "Education", value: "BA, MBA, MSc" },
+  { label: "Education", value: "B.TECH, BA, MBA, MSc" },
 ],
   skills: ["HTML5", "CSS3", "JavaScript", "React", "WordPress", "Firebase", "Responsive Design", "Git"],
   
